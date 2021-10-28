@@ -1,6 +1,6 @@
 tasks:
   - init: npm run init
-    command: node-red
+    command: npm run node-red
 ports:
   - port: 1880
     onOpen: open-browser
