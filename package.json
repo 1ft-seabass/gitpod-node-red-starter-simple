@@ -1,0 +1,17 @@
+{
+  "name": "gitpod-node-red-starter-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-red": "./node_modules/.bin/node-red -u ./.node-red -s ./.node-red/settings.js",
+    "init": "npm i && npm run init:subdir-install",
+    "init:subdir-install": "npm --prefix ./.node-red install ./.node-red"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "^2.0.6"
+  }
+}

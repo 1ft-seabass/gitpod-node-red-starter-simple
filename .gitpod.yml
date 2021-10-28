@@ -1,0 +1,7 @@
+tasks:
+  - init: npm run init
+    command: node-red
+ports:
+  - port: 1880
+    onOpen: open-browser
+    visibility: public
